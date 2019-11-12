@@ -14,5 +14,19 @@
     <artifactId>ywm-front</artifactId>
     <version>1.0.0</version>
 
-    
+    <packaging>jar</packaging>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>ywm.library</groupId>
+            <artifactId>shared</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yhb.wolf</groupId>
+            <artifactId>cloudlet</artifactId>
+        </dependency>
+
+    </dependencies>
 </project>
