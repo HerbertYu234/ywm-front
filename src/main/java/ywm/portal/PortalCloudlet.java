@@ -1,4 +1,4 @@
-package ywm.front;
+package ywm.portal;
 
 import com.wolf.Wolf;
 import com.wolf.cloud.WolfCloudlet;
@@ -9,9 +9,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
  */
 @Wolf.BootApplication(name = "front")
 @EnableFeignClients
-public class FrontCloudlet implements WolfCloudlet {
+public class PortalCloudlet implements WolfCloudlet {
 
     public static void main(String[] args) {
-        Wolf.run(FrontCloudlet.class, args);
+        Wolf.run(PortalCloudlet.class, args);
     }
 }

@@ -1,4 +1,4 @@
-package ywm.front.controller;
+package ywm.portal.controller;
 
 import org.springframework.stereotype.Controller;
 

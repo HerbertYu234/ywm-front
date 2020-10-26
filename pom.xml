@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>ywm</groupId>
-    <artifactId>ywm-front</artifactId>
+    <artifactId>ywm-portal</artifactId>
     <version>1.0.0</version>
 
     <packaging>jar</packaging>
